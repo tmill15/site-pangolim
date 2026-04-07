@@ -873,7 +873,7 @@ function prevQ() { if (currentQ > 0) { currentQ--; renderQ(); } }
 function showScore() {
   const box = document.getElementById('quizBox');
   const emoji = score === questions.length ? '🏆' : score >= 5 ? '🌟' : score >= 3 ? '👍' : '📚';
-  const msg = score === questions.length ? 'Perfeito! Você é um expert em pangolins!'
+  const msg = score === questions.length ? 'Perfeito! Você é um especialista em pangolins!'
     : score >= 5 ? 'Muito bem! Você sabe bastante sobre pangolins!'
     : score >= 3 ? 'Legal! Continue aprendendo sobre os pangolins!'
     : 'Que tal ler o site de novo e tentar outra vez?';
