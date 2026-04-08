@@ -852,6 +852,7 @@ function renderQ() {
   if (currentQ === questions.length - 1 && answered.every(Boolean)) {
     btnNext.textContent = 'Ver Resultado 🎉';
     btnNext.onclick = showScore;
+    btnNext.disabled = false;
   } else {
     btnNext.textContent = 'Próxima ➡';
     btnNext.onclick = nextQ;
